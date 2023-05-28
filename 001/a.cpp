@@ -20,9 +20,6 @@ int main() {
         int espetox = skewers[i];
         int espetoy = skewers[i+1];
         maxIngredients += (espetox < espetoy) ? espetox : espetoy;
-
-        // int totalIngredients = skewers[i] + skewers[2 * N - i - 1];
-        // maxIngredients = min(maxIngredients, totalIngredients);
     }
 
     cout << maxIngredients << endl;
